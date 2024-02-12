@@ -1,0 +1,79 @@
+.container {
+  background-image: url(/src/assets/background.png);
+  background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  .prof {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .Avatar {
+      margin-top: 140px;
+    }
+
+    .btn-light {
+      height: 40px;
+      margin: 10px;
+    }
+  }
+
+  .cont {
+    background-color: white;
+    margin-top: -8px;
+  }
+
+  .rgb {
+    background-color: #fafafa;
+  }
+}
+
+.item1 {
+  grid-area: Top-sidebar;
+}
+.item2 {
+  grid-area: Nav;
+}
+.item3 {
+  grid-area: Center-sidebar;
+}
+.item4 {
+  grid-area: content;
+}
+.item5 {
+  grid-area: bottom-sidebar;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "Top-sidebar Top-sidebar Nav Nav Nav Nav"
+    "Center-sidebar Center-sidebar content content content content"
+    "bottom-sidebar bottom-sidebar content content content content";
+  gap: 10px;
+  // background-color: white;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  // text-align: center;
+  padding: 20px 0;
+  // font-size: 30px;
+  border-radius: 10px;
+}
+
+.hr {
+  opacity: 0.8;
+}
+
+.inside{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}

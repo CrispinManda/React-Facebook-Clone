@@ -1,0 +1,19 @@
+
+.card{
+    background-color: #fafafa;
+    border: none;
+   
+    .card-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    button{
+        background-color: white;
+        width: 300px;
+    }
+
+  
+}
