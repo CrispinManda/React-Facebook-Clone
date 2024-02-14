@@ -1,0 +1,22 @@
+.cover{
+    height: 160px;
+    border-radius: 20px;
+}
+
+.Timeline{
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+
+    .cup{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+}
+

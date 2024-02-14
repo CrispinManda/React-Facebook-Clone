@@ -11,7 +11,7 @@ const Profile = () => {
     return (
 
         <>
-            <div className="container m-2">
+            <div className="containe m-2">
 
                 <div className="col prof" >
                     <img className='Avatar' src={Avatar} alt="Avatar" height='70px' />

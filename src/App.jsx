@@ -13,6 +13,7 @@ import Events from './components/Events';
 import Timeline from './components/Timeline';
 import LeftSidebar from './components/LeftSidebar';
 import RightSidebar from './components/RightSidebar';
+import NotFound from './components/NotFound';
 
 const App = () => {
   const location = useLocation();
@@ -46,6 +47,8 @@ const App = () => {
               <Route path="/events" element={<Events />} />
               <Route path="/group" element={<Groups />} />
               <Route path="/timeline" element={<Timeline />} />
+              {/* Not Found Route */}
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
           {showNavigationAndSidebars() && (
